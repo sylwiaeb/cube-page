@@ -53,8 +53,7 @@ table {
   margin-left: -200px;
   width: 400px;
   height: 400px;
-  cursor: -webkit-grab;
-  border: 1px solid red; }
+  cursor: -webkit-grab; }
   .cube-container #cube-viewport {
     -webkit-perspective: 1000px;
     -webkit-perspective-origin: 50% 200px; }

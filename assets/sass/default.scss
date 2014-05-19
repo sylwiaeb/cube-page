@@ -49,7 +49,6 @@ table {
 
 body {
     color: rgb(255,255,255);
-    background: url('http://api.thumbr.it/whitenoise-361x370.png?background=e0e0e000&noise=242424&density=3&opacity=13');
 }
 
 .cube-container {
@@ -69,10 +68,12 @@ body {
         -ms-perspective-origin:     50% 200px;
         -o-perspective-origin:      50% 200px;
         perspective-origin:         50% 200px;
+
         #cube {
             position:                relative;
             height: 400px;
             width: 400px;
+
             /*transform-style*/
             -webkit-transform-style: preserve-3d;
             -moz-transform-style:    preserve-3d;
@@ -88,7 +89,7 @@ body {
             .cubies {
                 position:                absolute;
                 margin:                  1px;
-                border:                  1px solid black;
+                border:                  1px solid rgb(97,86,94);
                 width:                   100px;
                 height:                  100px;
                 /*background-size*/
@@ -99,15 +100,16 @@ body {
                 opacity:                 1;
                 z-index:                 -1;
                 text-align:              center;
-                font-size:               30px;
                 /*border-radius*/
-                -webkit-border-radius:   8px;
-                -moz-border-radius:      8px;
-                border-radius:           8px;
+                -webkit-border-radius:   5px;
+                -moz-border-radius:      5px;
+                border-radius:           5px;
+
                 & > div {
                     line-height: 100px;
+
                     span {
-                        font-size: 10px;
+                        font-size: 15px;
                     }
                 }
             }
@@ -116,32 +118,32 @@ body {
 }
 
 .top > div {
-    background: rgba(85,98,112, 0.9);
+   // background: rgba(85,98,112, 0.9);
 //    -webkit-transform: translateZ(-100px) rotateX(-90deg);
 }
 
 .bottom > div {
-    background: rgba(78,205,196, 0.9);
+    background: rgba(252,235,182, 1);
 //    -webkit-transform: translateZ(-100px) rotateX(90deg);
 }
 
 .left > div {
-    background: rgba(255,107,107, 0.9);
+    background: rgba(94,65,47, 1);
 //    -webkit-transform: translateZ(-100px) rotateY(90deg);
 }
 
 .right > div {
-    background: rgba(133, 193, 245, 0.9);
+    background: rgba(240,120,24, 1);
 //    -webkit-transform: translateZ(-100px) rotateY(-90deg);
 }
 
 .front > div {
-    background: rgba(199,244,100, 0.9);
+    background: rgba(120,192,168, 1);
 //    -webkit-transform: translateZ(-100px) rotateY(0deg);
 }
 
 .back > div {
-    background: rgba(196,77,88, 0.9);
+    background: rgba(240,168,48, 1);
 //    -webkit-transform: translateZ(-100px) rotateX(-180deg);
 }
 
@@ -153,6 +155,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(50px,-100px,0);
     -o-transform:rotateX(90deg) translate3d(50px,-100px,0);
     transform:rotateX(90deg) translate3d(50px,-100px,0);
+    background: url('https://farm3.staticflickr.com/2916/13600849933_503a3a1b8b_q_d.jpg') no-repeat;
 }
 .a2{
     /*transform*/
@@ -161,6 +164,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(50px,0,0);
     -o-transform:rotateX(90deg) translate3d(50px,0,0);
     transform:rotateX(90deg) translate3d(50px,0,0);
+    background: url('https://farm3.staticflickr.com/2843/13600818855_73fff79f03_q_d.jpg') no-repeat;
 }
 .a3{
     /*transform*/
@@ -169,6 +173,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(50px,100px,0px);
     -o-transform:rotateX(90deg) translate3d(50px,100px,0px);
     transform:rotateX(90deg) translate3d(50px,100px,0px);
+    background: url('https://farm6.staticflickr.com/5474/13600813835_014b21869b_q_d.jpg') no-repeat;
 }
 .a4{
     /*transform*/
@@ -177,6 +182,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(150px,-100px,0);
     -o-transform:rotateX(90deg) translate3d(150px,-100px,0);
     transform:rotateX(90deg) translate3d(150px,-100px,0);
+    background: url('https://farm4.staticflickr.com/3682/13601114884_43cc74c2e3_q_d.jpg') no-repeat;
 }
 .a5{
     /*transform*/
@@ -185,6 +191,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(150px,0,0);
     -o-transform:rotateX(90deg) translate3d(150px,0,0);
     transform:rotateX(90deg) translate3d(150px,0,0);
+    background: rgb(255,123,7);
 }
 .a6{
     /*transform*/
@@ -193,6 +200,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(150px,100px,0);
     -o-transform:rotateX(90deg) translate3d(150px,100px,0);
     transform:rotateX(90deg) translate3d(150px,100px,0);
+    background: url('https://farm3.staticflickr.com/2813/13600731625_93a0d211ba_q_d.jpg') no-repeat;
 }
 .a7{
     /*transform*/
@@ -201,6 +209,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(250px,-100px,0);
     -o-transform:rotateX(90deg) translate3d(250px,-100px,0);
     transform:rotateX(90deg) translate3d(250px,-100px,0);
+    background: url('https://farm4.staticflickr.com/3687/9549064835_d5d4ca5344_q_d.jpg') no-repeat;
 }
 .a8{
     /*transform*/
@@ -209,6 +218,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(250px,0,0);
     -o-transform:rotateX(90deg) translate3d(250px,0,0);
     transform:rotateX(90deg) translate3d(250px,0,0);
+    background: url('https://farm6.staticflickr.com/5541/9549060311_9fe204a124_q_d.jpg') no-repeat;
 }
 .a9{
     /*transform*/
@@ -217,6 +227,7 @@ body {
     -ms-transform:rotateX(90deg) translate3d(250px,100px,0);
     -o-transform:rotateX(90deg) translate3d(250px,100px,0);
     transform:rotateX(90deg) translate3d(250px,100px,0);
+    background: url('https://farm8.staticflickr.com/7001/13600816355_635ddb4af8_q_d.jpg') no-repeat;
 }
 .b1{
     /*transform*/
